@@ -21,7 +21,8 @@ Route::get('/characters', function () {
 })->name('characters');
 
 Route::get('/comics', function () {
-    return view('comics');
+    $poster = config('comics-file');
+    return view('comics',['posters' => $poster]);
 })->name('comics');
 
 Route::get('/movies', function () {
