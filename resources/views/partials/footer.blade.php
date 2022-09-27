@@ -51,7 +51,7 @@
             <button>SIGN-UP NOW</button>
         </div>
         <div class="app">
-            <h4>FOLLOW US</h4>
+            <h4>FOLLOW US!</h4>
             <ul>
                 <li>
                     <a href="#">
