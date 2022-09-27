@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    img{
+        width: 60px;
+    }
+    ul{
+        list-style: none;
+        margin: 20px;
+        li{
+            display: inline-block;
+            margin: 0 10px;
+            a{
+                text-decoration: none;
+                font-size: 10px;
+                color: black;
+                padding: 10px;
+                &.active, &:hover{
+                    border-bottom: 2px solid blue;
+                }
+            }
+        }
+        
+    }
+}
